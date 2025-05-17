@@ -3,81 +3,66 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Blog Biblique</title>
+  <title>Blog Biblique de Zak-hk</title>
   <style>
     body {
       font-family: Arial, sans-serif;
+      background: #f4f8fb;
+      color: #222;
       max-width: 800px;
       margin: 0 auto;
       padding: 20px;
-      background-color: #f9f9f9;
-      color: #333;
     }
     header, footer {
+      background: #e0f7fa;
       text-align: center;
-      padding: 10px 0;
-      background-color: #e0f7fa;
       border-radius: 8px;
+      padding: 15px 0;
       margin-bottom: 20px;
     }
     h1 {
-      margin: 0;
       color: #00796b;
+      margin: 0;
     }
-    section#ia-intro {
-      background-color: #ffffff;
-      padding: 15px;
-      border: 1px solid #b2dfdb;
-      border-radius: 8px;
-      margin-bottom: 30px;
+    ul {
+      list-style: none;
+      padding: 0;
     }
-    main article {
-      background-color: #ffffff;
-      padding: 15px;
-      border: 1px solid #c8e6c9;
-      border-radius: 8px;
-      margin-bottom: 20px;
+    li {
+      margin-bottom: 10px;
     }
-    main article h3 {
+    a {
       color: #388e3c;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.1em;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    section {
+      margin-bottom: 30px;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>Bienvenue sur mon Blog Biblique</h1>
-    <p>Partagez et découvrez des histoires bibliques inspirantes</p>
+    <h1>Bienvenue sur le Blog Biblique de Zak-hk</h1>
+    <p>Découvrez et partagez les plus belles histoires de la Bible !</p>
   </header>
 
-  <section id="ia-intro">
-    <h2>Introduction avec IA</h2>
-    <p id="ia-response">Chargement de l'introduction...</p>
+  <!-- Section Accès à la Bible en ligne -->
+  <section>
+    <h2>Accès à la Bible complète en ligne</h2>
+    <ul>
+      <li><a href="https://www.bible.com/fr/bible/93/GEN.1.LSG" target="_blank">Lire la Bible Louis Segond (YouVersion)</a></li>
+      <li><a href="https://www.aelf.org/bible" target="_blank">Lire la Bible Catholique (AELF)</a></li>
+      <li><a href="https://www.biblegateway.com/versions/Louis-Segond-Version-LSG-Bible/" target="_blank">Lire la Bible sur Bible Gateway</a></li>
+    </ul>
   </section>
 
-  <main id="articles">
-    <article>
-      <h3>La création du monde</h3>
-      <p>Au commencement, Dieu créa les cieux et la terre. Cette histoire nous rappelle la puissance et la sagesse divine.</p>
-    </article>
-
-    <article>
-      <h3>Le déluge de Noé</h3>
-      <p>Dieu demanda à Noé de construire une arche pour sauver sa famille et les animaux d’un grand déluge qui purifierait la terre.</p>
-    </article>
-  </main>
-
   <footer>
-    <p>© 2025 Blog Biblique</p>
+    <p>© 2025 Blog Biblique de Zak-hk</p>
   </footer>
-
-  <script>
-    // Simulation d'une introduction générée par IA
-    async function fetchIntro() {
-      // Ici vous pouvez appeler une API IA réelle
-      const intro = "Bienvenue ! Cette IA vous guidera à travers les histoires bibliques avec des explications claires et enrichissantes.";
-      document.getElementById('ia-response').textContent = intro;
-    }
-    fetchIntro();
-  </script>
 </body>
 </html>
